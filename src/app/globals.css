@@ -50,3 +50,10 @@ body{
 .cursor-blink{
   animation: blink-cursor 1s steps(1) infinite;
 }
+
+.react-activity-calendar__scroll-container{
+ scrollbar-width:none
+}
+.react-activity-calendar__scroll-container::-webkit-scrollbar{
+  display:none
+}
