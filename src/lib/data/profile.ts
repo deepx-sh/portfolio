@@ -1,7 +1,7 @@
 export const profile = {
     name: "Deep Prajapati",
     handle: "@deepcreates",
-    status: "Looking for full-stack roles",
+    status: "Open for opportunities",
     location: "India",
     bio: "I'm Full Stack Developer. I love building solutions and solving porblems. I enjoy crafting websites with React, TypeScript, Express, using MongoDB, MySQL databases and I live on the VS Code mostly,",
     availability: {
