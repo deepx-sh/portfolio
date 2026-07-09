@@ -31,7 +31,10 @@ export const metadata: Metadata = {
     "Full Stack MERN Developer",
     "TypeScript Developer",
     "Java",
-    "deepcreates"
+    "deepcreates",
+    "deep prajapati",
+    "Deep Prajapati",
+    "Deep Prajapati Software Engineer"
   ],
   openGraph: {
     title: `${profile.name} - Full Stack Developer`,
