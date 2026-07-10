@@ -11,7 +11,7 @@ export type Achievement = {
 
 export const achievements: Achievement[] = [
     {
-        title: "Gold Medal - Diploma in Information Technology (Academic Excellence)",
+        title: "Gold Medalist - Diploma in Information Technology (Academic Excellence)",
         issuer: "B.S. Patel Polytechnic, Ganpat University",
         year: "2021",
         icon: Award,
