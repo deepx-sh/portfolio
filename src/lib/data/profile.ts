@@ -8,7 +8,7 @@ export const profile = {
         headline: "Available for new opportunities",
         description:"Looking for full-stack developer roles open to full-time positions and freelance work. Comfortable across the MERN stack and TypeScript, and quick to pick up new codebases."  
     },
-    quote:"The more you sweat in peace the less you bleed in war",
+    quote:"Someone with the same goal is working twice as hard as you",
     social: {
         github: "https://github.com/deepx-sh",
         linkedin: "https://www.linkedin.com/in/deep-prajapati-63b6491b6/",

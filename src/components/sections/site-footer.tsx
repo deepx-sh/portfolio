@@ -10,7 +10,7 @@ export function SiteFooter() {
             </p>
 
             <p className="text-sm text-foreground">
-                Designed &amp; Made with <span className="text-red-500">❤️</span>
+                Designed &amp; Developed by Deep Prajapati
             </p>
 
             <div className="flex w-full items-center justify-between border-t border-border pt-4 font-mono text-xs text-muted-foreground">
