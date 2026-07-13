@@ -16,6 +16,6 @@ export const profile = {
         leetcode:"https://leetcode.com/deepx_sh",
         email: "dvprajapati7212@gmail.com"
     },
-    resumeUrl: "https://drive.google.com/file/d/1H52RvAW916sTeRXwr9EaH2StFq7lNH7q/view?usp=drive_link",
+    resumeUrl: "https://drive.google.com/file/d/19mlsAMAyQtw5D_6lIVWHF2Tb51mWOOan/view?usp=drive_link",
     avatar:"/profilepic.jpg"
 } as const;
