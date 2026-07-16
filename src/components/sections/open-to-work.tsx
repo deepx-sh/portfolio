@@ -16,7 +16,7 @@ export function OpenToWork() {
                     </span>
                     {profile.availability.headline}
                 </div>
-                <p className="text-sm leading-relaxed text-muted-foreground">
+                <p className="text-sm leading-relaxed text-muted-foreground tracking-tight sm:tracking-normal">
                     {profile.availability.description}
                 </p>
 
