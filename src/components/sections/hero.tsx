@@ -35,7 +35,7 @@ export function Hero() {
                 </div>
             </div>
 
-            <p className="text-sm leading-relaxed text-foreground/90 max-w-2xl">
+            <p className="text-sm leading-relaxed text-foreground/90 max-w-2xl tracking-tight sm:tracking-normal">
                 I&apos;m a Full Stack Developer. I love building solutions and solving problems. I enjoy crafting websites with{" "}
                 <span className="inline-flex items-center gap-1 text-foreground align-middle">
                     <SiReact className="size-4 shrink-0 text-[#61DAFB]"/> React
