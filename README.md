@@ -1,36 +1,93 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# deepprajapati.in - Personal Portfolio
 
-## Getting Started
+Personal portfolio website built with Next.js, TypeScript, and Tailwind CSS.
 
-First, run the development server:
+Live at [deepprajapati.in](https://deepprajapati.in)
+
+---
+
+## Tech Stack
+
+- **Framework** - Next.js 16 (App Router)
+- **Language** - TypeScript
+- **Styling** - Tailwind CSS v4
+- **Icons** - Lucide React, React Icons
+- **Theme** - next-themes (dark/light toggle)
+- **View Counter** - Upstash Redis
+- **Deployment** - Vercel
+- **Fonts** - Geist Sans, JetBrains Mono
+
+---
+
+## Features
+
+- Dark/light mode toggle
+- Live GitHub contribution heatmap
+- Real-time view counter (deduped via cookie)
+- Responsive across mobile, tablet, and desktop
+- SEO optimised - Open Graph, Twitter cards, JSON-LD, sitemap
+- Dynamically generated OG image via `next/og`
+
+---
+
+## Sections
+
+- **Hero** - name, handle, status, live clock, bio with inline tech icons
+- **Skills** - full tech stack with brand icons
+- **GitHub Activity** - real contribution heatmap
+- **Open to Work** - availability status with pulsing indicator
+- **Projects** - featured project cards with screenshots, tech tags, live/GitHub links
+- **Achievements** - gold medal, Government of India security acknowledgment
+- **Connect** - social links
+- **Footer** - quote, view counter
+
+---
+
+## Running Locally
+
+**Prerequisites:** Node.js 20.9+
 
 ```bash
+# Clone the repo
+git clone https://github.com/deepx-sh/portfolio.git
+cd portfolio
+
+# Install dependencies
+npm install
+
+# Start the dev server
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open [http://localhost:3000](http://localhost:3000)
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+---
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## Environment Variables
 
-## Learn More
+Create a `.env.local` file at the project root:
 
-To learn more about Next.js, take a look at the following resources:
+```env
+NEXT_PUBLIC_SITE_URL=https://deepprajapati.in
+UPSTASH_REDIS_REST_URL=your-upstash-url
+UPSTASH_REDIS_REST_TOKEN=your-upstash-token
+```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+---
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+---
 
-## Deploy on Vercel
+## Deployment
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Deployed on Vercel. Add the three environment variables above in  
+**Vercel → Project → Settings → Environment Variables** before deploying.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+---
+
+## License
+
+Not open source. Feel free to take inspiration, but please don't copy the design or content directly.
+
+---
+
+Built by [Deep Prajapati](https://deepprajapati.in)
