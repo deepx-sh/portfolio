@@ -18,6 +18,9 @@ const jetbrainsMono = JetBrains_Mono({
 
 export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),
+  alternates: {
+      canonical:"/"
+  },
   title: {
     default: `${profile.name} - Full Stack Developer`,
     template: `%s | ${profile.name}`
