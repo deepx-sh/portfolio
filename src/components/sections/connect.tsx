@@ -23,7 +23,7 @@ export function Connect() {
                         rel="noopener noreferrer"
                         className="inline-flex items-center gap-1.5 rounded-md border border-border px-3 py-1.5 hover:bg-background transition-colors"
                     >
-                        <SiX className="size-3.5"/> X
+                        <SiX className="size-3"/> X
                     </Link>
 
                     <Link
