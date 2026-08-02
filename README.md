@@ -75,6 +75,31 @@ UPSTASH_REDIS_REST_TOKEN=your-upstash-token
 
 ---
 
+## Project Structure
+
+```
+
+src/
+├── app/
+│ ├── api/views/ # View counter API route
+│ ├── projects/ # All projects page
+│ ├── layout.tsx # Root layout, metadata, fonts
+│ ├── page.tsx # Home page
+│ ├── opengraph-image.tsx
+│ ├── sitemap.ts
+│ └── robots.ts
+├── components/
+│ ├── sections/ # Hero, Skills, Projects, etc.
+│ ├── ui/ # Reusable components
+│ ├── site-header.tsx
+│ ├── site-footer.tsx
+│ ├── theme-provider.tsx
+│ └── theme-toggle.tsx
+└── lib/
+└── data/ # profile.ts, projects.ts, skills.ts, achievements.ts
+
+```
+
 ---
 
 ## Deployment
