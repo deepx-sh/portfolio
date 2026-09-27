@@ -15,7 +15,7 @@ export function Hero() {
                     aria-hidden
                     className="size-18 shrink-0 relative overflow-hidden"
                 >
-                    <Image src={profile.avatar || "/profilepic.jpg"} fill sizes="72px" className="object-cover" priority alt="Profile Picture" />
+                    <Image src={profile.avatar || "/profilepic.jpg"} fill sizes="512px" className="object-cover" priority alt="Profile Picture" />
                 </div>
 
                 <div className="flex flex-col gap-1">
