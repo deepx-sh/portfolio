@@ -1,5 +1,5 @@
 import type { IconType } from "react-icons";
-import { SiMongodb, SiExpress, SiReact, SiNodedotjs, SiJavascript, SiTypescript, SiMysql, SiRedux, SiMongoose, SiTailwindcss, SiPostman, SiCss, SiHtml5, SiGithub, SiGit, SiLinux, SiNextdotjs, } from "react-icons/si";
+import { SiMongodb, SiExpress, SiReact, SiNodedotjs, SiJavascript, SiTypescript, SiMysql, SiRedux, SiMongoose, SiTailwindcss, SiPostman, SiCss, SiHtml5, SiGithub, SiGit, SiLinux, SiNextdotjs,SiPostgresql} from "react-icons/si";
 import { DiJava } from "react-icons/di";
 import { GoDatabase } from "react-icons/go";
 
@@ -19,6 +19,7 @@ export const skills: Skill[] = [
     { name: "Express", icon: SiExpress },
     { name: "MongoDB", icon: SiMongodb, color: "#47A248" },
     { name: "MySQL", icon: SiMysql, color: "#4479A1" },
+    {name:"PostgreSQL",icon:SiPostgresql,color:"#336791"},
     {name:"SQL",icon:GoDatabase},
     { name: "Java", icon: DiJava,color:"#ED8B00" },
     { name: "Mongoose", icon: SiMongoose,color:"#800000" },

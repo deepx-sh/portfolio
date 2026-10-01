@@ -5,7 +5,7 @@ export function Skills() {
     return (
         <section className="flex flex-col gap-4 border-b border-border py-8">
             <SectionLabel>My Skills</SectionLabel>
-            <div className="flex flex-wrap gap-x-5 gap-y-3">
+            <div className="flex flex-wrap gap-x-4 gap-y-3">
                 {skills.map((skill) => {
                     const Icon = skill.icon;
                     return (
