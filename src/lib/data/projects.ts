@@ -29,7 +29,7 @@ export const projects: Project[] = [
       {
         name: "SecureNation",
         description: "A production grade security first authentication system built with the MERN stack JWT sessions, email OTP verifications, secure password reset, multi-device session management, and rate limiting",
-        tech: ["TypeScript", "React", "Node.js", "Express", "MongoDB","Tailwind CSS","bcrypt.js","JWT"],
+        tech: ["JavaScript", "React", "Node.js", "Express", "MongoDB","Tailwind CSS","bcrypt.js","JWT"],
         github: "https://github.com/deepx-sh/mern-auth-system",
         live: "https://securenation.vercel.app/",
         image:"/projects/securenation.png"
